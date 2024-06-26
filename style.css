@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.back-image{
+    background-image:linear-gradient(to right, rgba(255, 1, 1, 0.201), rgba(255, 0, 0, 0.201)), url("./img/GJ_AW23_BLOOMBOTANICA_10020271-1600x6001600.avif");
+    
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+height: 150px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+nav {
+    background-color: rgb(247, 234, 239);
+}
+.hero-photo{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/photo2.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+ height: 400px;
+ color: white;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+.shop-btn{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: gray;
+    color: white;
+
+}
+
+
+.first-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/photo4.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+ height: 450px;
+ color: white;
+margin-right:35px;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+.sec-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/photo6.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 45%;
+ height: 450px;
+ color: white;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
+}
+.third-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/Prints7.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 45%;
+ height: 450px;
+ color: white;
+margin-right:35px;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+.forth-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/photo7.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+ height: 450px;
+ color: white;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
+}
+.col-lg-2 img{
+    width: 80%;
+height: auto;
+}
+.column-image{
+    display: flex;
+   
+justify-content: center;
+align-items: center;
+}
+.row-images{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+/*
+.col-lg-2 img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+ */
+
+
+ /*  Brand Pages Styles **********************/
+.brand-name{
+    background-color: rgba(255, 255, 255, 0.302);
+    border-radius: 5px;
+    padding: 15px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.brand-name button {
+    width: 150px;
+    background-image: linear-gradient(to right, red, rgba(255, 255, 255, 0.922));
+    color: white; 
+    border: none; 
+    
+  }
+.brand-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  @media (width < 581px) {
+    .brand-name{
+        flex-direction: column;
+        row-gap: 5px;  
+      }
+   
+}
+@media(width < 991px){
+    .sec-image,.first-image,.third-image,.forth-image{
+        width: 100%;
+    
+    }
+.first-image,.third-image{
+    margin-bottom: 5px;
+}
+
+}
